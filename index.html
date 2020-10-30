@@ -9,11 +9,35 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 <style>
+    body {
+        background-color: rgb(158, 163, 159);
+    }
 
+    .techUsed {
+        margin: 10px;
+        border: solid 2px rgb(93, 99, 94);
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        text-align: center;
+    }
+
+    .techUsed p {
+        margin: 10px;
+        background-color: rgb(93, 99, 94);
+        color: rgb(184, 189, 185);
+        -webkit-box-shadow: 9px 8px 20px -2px rgba(0, 0, 0, 0.54);
+        box-shadow: 9px 8px 20px -2px rgba(0, 0, 0, 0.54);
+    }
 </style>
 
 <body>
-
+    <div class=techUsed>
+        <p>Javascript</p>
+        <p>CSS</p>
+        <p>HTML</p>
+        <p>JQUERY</p>
+        <p>Javascript</p>
+    </div>
     <script>
         $(document).ready(function () { });
 
